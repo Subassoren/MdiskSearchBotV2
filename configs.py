@@ -7,15 +7,15 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "26164342"))
     API_HASH = os.getenv("API_HASH", "1e6f9af98ffe06f3281a0b537ebf5c39")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5649920247:AAHBL3QRIkgfIxD5wCnlYvsUQ9jC7TzhWwQ")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksorenbot")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5815954490:AAGgq34_BqMI1tz9DXSYzcavQe4K2OC9AEQ")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "shareussorenbot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLQBu6rw6imzBgdwOo1sLN3VuoNrXljnj1FikipRXOZYi5HZdvbQIXSSVjMKutb7WpaHXV2pk-k4bHeDe2ZLdxxSeVMfFXTUR3eKqatBHzGvzOlq7h8bE4sN0VdRMGjfqwhgG1RlaZ9f_SmY3IgNN5L41WqqGYbqRA_0U4fku_lYwExjQmYXzQelywJUxrwN3hSBa2k_84IhrdKOJGvJfeF549682ursg23Xp3nKNFeN-a3egprVfsq0yIFZ2ozp2DKghD7cUg-SXidcjBAh5Fxe_0EsVu3_GAHaBVTKqMfkGIF-r3rJpaV7DyKDNnNAZF5-_70AfFMD6vqU7l1bc47WiS0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001645813970")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "@MovieSearchingRobot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@ShareUs_Search_Bot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2065355686"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "SubasSoren")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Soren_Corporation")
-#    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
+#    GROUP_USERNAME = os.getenv("https://t.me/Pr_Movies_Requests1")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
 I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
@@ -23,7 +23,7 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/7d357b72c29a6aa21fb78.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/485b8d4322d9218208002.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
