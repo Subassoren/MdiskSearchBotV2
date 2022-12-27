@@ -7,7 +7,7 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", "26164342"))
     API_HASH = os.getenv("API_HASH", "1e6f9af98ffe06f3281a0b537ebf5c39")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5815954490:AAGgq34_BqMI1tz9DXSYzcavQe4K2OC9AEQ")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5780194167:AAHM6Zn9QtISzeA4tbGg8QGMfsIGSws56fc")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "shareusofficialbot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLQBu6rw6imzBgdwOo1sLN3VuoNrXljnj1FikipRXOZYi5HZdvbQIXSSVjMKutb7WpaHXV2pk-k4bHeDe2ZLdxxSeVMfFXTUR3eKqatBHzGvzOlq7h8bE4sN0VdRMGjfqwhgG1RlaZ9f_SmY3IgNN5L41WqqGYbqRA_0U4fku_lYwExjQmYXzQelywJUxrwN3hSBa2k_84IhrdKOJGvJfeF549682ursg23Xp3nKNFeN-a3egprVfsq0yIFZ2ozp2DKghD7cUg-SXidcjBAh5Fxe_0EsVu3_GAHaBVTKqMfkGIF-r3rJpaV7DyKDNnNAZF5-_70AfFMD6vqU7l1bc47WiS0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001750259696")) 
