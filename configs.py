@@ -8,10 +8,10 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "26164342"))
     API_HASH = os.getenv("API_HASH", "1e6f9af98ffe06f3281a0b537ebf5c39")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5815954490:AAGgq34_BqMI1tz9DXSYzcavQe4K2OC9AEQ")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "shareussorenbot")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "shareusofficialbot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLQBu6rw6imzBgdwOo1sLN3VuoNrXljnj1FikipRXOZYi5HZdvbQIXSSVjMKutb7WpaHXV2pk-k4bHeDe2ZLdxxSeVMfFXTUR3eKqatBHzGvzOlq7h8bE4sN0VdRMGjfqwhgG1RlaZ9f_SmY3IgNN5L41WqqGYbqRA_0U4fku_lYwExjQmYXzQelywJUxrwN3hSBa2k_84IhrdKOJGvJfeF549682ursg23Xp3nKNFeN-a3egprVfsq0yIFZ2ozp2DKghD7cUg-SXidcjBAh5Fxe_0EsVu3_GAHaBVTKqMfkGIF-r3rJpaV7DyKDNnNAZF5-_70AfFMD6vqU7l1bc47WiS0=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001645813970")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "@ShareUs_Search_Bot")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001750259696")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@I_Popcorn_Movie_Robot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2065355686"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "SubasSoren")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Soren_Corporation")
@@ -23,7 +23,7 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/485b8d4322d9218208002.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/475da0c82206cee400f15.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
@@ -31,10 +31,10 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001742772657")
     DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Gandu143:Gandu143@cluster0.bkyz5fj.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001567231084"))
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001512150469"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Soren_Corporation")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "@Soren_Corporation")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
