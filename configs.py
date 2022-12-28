@@ -8,14 +8,14 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "26164342"))
     API_HASH = os.getenv("API_HASH", "1e6f9af98ffe06f3281a0b537ebf5c39")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5780194167:AAHM6Zn9QtISzeA4tbGg8QGMfsIGSws56fc")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "shareusofficialbot")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "shareusprobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLQBu6rw6imzBgdwOo1sLN3VuoNrXljnj1FikipRXOZYi5HZdvbQIXSSVjMKutb7WpaHXV2pk-k4bHeDe2ZLdxxSeVMfFXTUR3eKqatBHzGvzOlq7h8bE4sN0VdRMGjfqwhgG1RlaZ9f_SmY3IgNN5L41WqqGYbqRA_0U4fku_lYwExjQmYXzQelywJUxrwN3hSBa2k_84IhrdKOJGvJfeF549682ursg23Xp3nKNFeN-a3egprVfsq0yIFZ2ozp2DKghD7cUg-SXidcjBAh5Fxe_0EsVu3_GAHaBVTKqMfkGIF-r3rJpaV7DyKDNnNAZF5-_70AfFMD6vqU7l1bc47WiS0=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001750259696")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "@I_Popcorn_Movie_Robot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "2065355686"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "SubasSoren")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Soren_Corporation")
-#    GROUP_USERNAME = os.getenv("https://t.me/Pr_Movies_Requests1")
+#    GROUP_USERNAME = os.getenv("")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
 I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
@@ -36,7 +36,7 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "Soren_Corporation")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
-    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
+    AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 120))
     MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
